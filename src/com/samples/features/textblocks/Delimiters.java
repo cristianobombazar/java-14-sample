@@ -32,7 +32,7 @@ public class Delimiters {
                          "et dolore magna aliqua.";
         System.out.println(longTextBefore);
 
-        //After text blocks, you can use a delimiter (\) to split the string
+        //After text blocks, you can use a delimiter (\) to tell the compiler that the string should not be splited.
         String longTextAfter = """
                 Lorem ipsum dolor sit amet, consectetur adipiscing \
                 elit, sed do eiusmod tempor incididunt ut labore \
@@ -49,6 +49,7 @@ public class Delimiters {
                 """;
         System.out.println(textWithTrailingSpaces);
 
+        // the first "line 1"  will not have trailing spaces, but the second "line 2" will have trailing spaces.
         String anotherExampleTrailingSpaces =  """
             line 1       
             line 2       \s
