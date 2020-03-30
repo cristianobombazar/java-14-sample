@@ -23,7 +23,7 @@ You will need to add a command line argument to enable.
 
     --enable-preview
 
-## Features on this project
+## Features in this project
 - [Text Blocks](https://github.com/cristianobombazar/java-14-sample/tree/master/src/com/samples/features/textblocks)
 
 
