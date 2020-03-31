@@ -15,8 +15,15 @@
   </a>
 </p>
 
+## Download
+- [You can download here](https://jdk.java.net/14/)
 
-## Features on this project
+## Enable features
+You will need to add a command line argument to enable.
+
+    --enable-preview
+
+## Features in this project
 - [Text Blocks](https://github.com/cristianobombazar/java-14-sample/tree/master/src/com/samples/features/textblocks)
 
 
