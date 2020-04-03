@@ -1,6 +1,6 @@
-package com.samples.features.textblocks;
+package com.features.textblocks;
 
-public class WhiteSpaces {
+class WhiteSpaces {
 
     public static void main(String[] args) {
         // The position of the opening """ characters has no effect on the algorithm,
@@ -10,7 +10,7 @@ public class WhiteSpaces {
         //are positioned before the text, so the compiler understand that the white spaces should be included.
         String whiteSpace = """
                     <h1>Java 14</h1>
-                    <p>Hello World!</p>    
+                    <p>Hello World!</p>
                 """;
         System.out.println(whiteSpace);
 
@@ -18,7 +18,7 @@ public class WhiteSpaces {
         //that you don't want any white space before the tags.
         String withoutSpace = """
                     <h1>Java 14</h1>
-                    <p>Hello World!</p>    
+                    <p>Hello World!</p>
                         """;
         System.out.println(withoutSpace);
 

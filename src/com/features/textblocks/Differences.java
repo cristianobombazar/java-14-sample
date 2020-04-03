@@ -1,6 +1,6 @@
-package com.samples.features.textblocks;
+package com.features.textblocks;
 
-public class Differences {
+class Differences {
 
     public static void main(String[] args) {
         //before the text blocks
@@ -17,7 +17,7 @@ public class Differences {
                   <body>
                       <p>Hello, world</p>
                   </body>
-              </html>            
+              </html>
               """;
         //the results are equal.
         System.out.println(htmlNew);
@@ -33,8 +33,8 @@ public class Differences {
         String sqlNew = """
                SELECT `EMP_ID`, `LAST_NAME` FROM `EMPLOYEE_TB`
                WHERE `CITY` = 'BRACO_DO_NORTE'
-               ORDER BY `EMP_ID`, `LAST_NAME`; 
-               
+               ORDER BY `EMP_ID`, `LAST_NAME`;
+
                """;
 
         //the results are equal.
@@ -51,8 +51,8 @@ public class Differences {
 
         //after the text blocks
         String linesNew = """
-                   line1 
-                   line2 
+                   line1
+                   line2
                    line3 """;
 
         //the results are equal.

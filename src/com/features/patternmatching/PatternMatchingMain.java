@@ -1,6 +1,14 @@
-package com.samples.features.patternmatching;
+package com.features.patternmatching;
 
-public class PatternMatchingMain {
+class PatternMatchingMain {
+
+    static Exception print(int i) {
+        if (i > 0) {
+            return new Exception();
+        } else {
+            return new RuntimeException();
+        }
+    }
 
     public static void main(String[] args) {
         //old way

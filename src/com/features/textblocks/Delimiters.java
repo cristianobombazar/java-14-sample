@@ -1,6 +1,6 @@
-package com.samples.features.textblocks;
+package com.features.textblocks;
 
-public class Delimiters {
+class Delimiters {
 
     public static void main(String[] args) {
         // Using text blocks you can use " inside of text, even if they are right after the opening delimiter or
@@ -9,7 +9,7 @@ public class Delimiters {
                     Feel free to use the " as you want.
                     "The only rule is that you can't put three " after each other."
                     You can use use "" but not three.
-                    If you want to see how you can put three " right after each, see the example below. 
+                    If you want to see how you can put three " right after each, see the example below.
                     """;
         System.out.println(text);
 
@@ -51,7 +51,7 @@ public class Delimiters {
 
         // the first "line 1"  will not have trailing spaces, but the second "line 2" will have trailing spaces.
         String anotherExampleTrailingSpaces =  """
-            line 1       
+            line 1
             line 2       \s
             """;
         System.out.println(anotherExampleTrailingSpaces);
