@@ -29,8 +29,10 @@ You will need to add a command line argument to enable:
     
 
 ## Features in this project
-- [Text Blocks](https://github.com/cristianobombazar/java-14-sample/tree/master/src/com/samples/features/textblocks)
-- [Pattern Matching for instanceof](https://github.com/cristianobombazar/java-14-sample/tree/master/src/com/samples/features/patternmatching)
+- [Text Blocks](https://github.com/cristianobombazar/java-14-sample/tree/master/src/com/features/textblocks)
+- [Pattern Matching for instanceof](https://github.com/cristianobombazar/java-14-sample/tree/master/src/com/features/patternmatching)
+- [HelpfulNullPointerException](https://github.com/cristianobombazar/java-14-sample/tree/master/src/com/features/nullpointer)
+
 
 
 ## Important changes description (Official website)
