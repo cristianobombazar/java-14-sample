@@ -21,9 +21,11 @@
 ## Enable features
 You will need to add a command line argument to enable:
 
-    --enable-preview
-    -XX:+ShowCodeDetailsInExceptionMessages (For HelpfullNullPointerExceptions)
+    --enable-preview       
+    
+## Enable HelpfulNullPointerExceptions
 
+    -XX:+ShowCodeDetailsInExceptionMessages 
     
 
 ## Features in this project
